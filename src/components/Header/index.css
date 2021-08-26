@@ -1,0 +1,29 @@
+.header__container {
+    grid-area: header;
+
+    height: 80px;
+    margin-bottom: 20px;
+
+    background: #1DA1F2;
+    border-radius: 0 0 20px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+.header__title {
+    color: #fff;
+}
+
+.header__counter-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__counter {
+    color: #fff;
+    margin-right: 10px;
+}

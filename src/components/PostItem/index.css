@@ -1,0 +1,39 @@
+.post-item__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+    
+    margin: 0 auto 5px;
+}
+
+.like {
+    color: red;
+}
+
+.post-item__btn {
+    width: 40px;
+    height: 40px;
+
+    margin-right: 5px;
+    padding: 10px;
+
+    border: none;
+    background-color: #fff;
+}
+
+.post-item__btn:hover {
+    cursor: pointer;
+}
+
+.post-item__post-text {
+    font-size: 1em;
+}
+
+.post-item__img {
+    width: 20px;
+}

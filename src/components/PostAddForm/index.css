@@ -1,0 +1,40 @@
+.post-form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.post-form__input {
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #6E767D;
+}
+
+.post-form__input:focus {
+    border: none;
+}
+
+.post-form__btn {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    background: #1DA1F2;
+    border-radius: 47px;
+    width: 80px;
+}
+
+.post-form__btn:hover {
+    cursor: pointer;
+}

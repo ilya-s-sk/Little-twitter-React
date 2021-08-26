@@ -1,0 +1,8 @@
+.posts-list {
+    width: 500px;
+    margin: 15px auto;
+}
+
+.post-list-item {
+    list-style-type: none;
+}
