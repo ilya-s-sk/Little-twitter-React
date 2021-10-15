@@ -11,8 +11,10 @@
     margin: 0 auto 5px;
 }
 
+
 .like {
-    color: red;
+    color: #FF3333;
+    border-color: #FF3333;
 }
 
 .post-item__btn {
@@ -24,9 +26,6 @@
 
     border: none;
     background-color: #fff;
-}
-
-.post-item__btn:hover {
     cursor: pointer;
 }
 

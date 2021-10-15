@@ -4,14 +4,14 @@ import './index.css';
 
 const PostItem = (props) => {
     const {text, like, onLike, onDelete} = props;
-    let classNames = 'post-form__post-text ';
+    let classNames = 'post-item__container ';
     if (like) {
         classNames += 'like '
     }
     return (
-        <div className='post-item__container'>
+        <div className={classNames}>
             <span
-                className={classNames}>
+                className="post-form__post-text">
                 {text}
             </span>
             <div className="buttons">

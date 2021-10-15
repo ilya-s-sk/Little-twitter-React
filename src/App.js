@@ -15,6 +15,22 @@ class App extends React.Component {
 
     maxId = 0;
 
+    componentDidMount() {
+        for (let key in localStorage) {
+            if (!localStorage.hasOwnProperty(key)) {
+                continue;
+            }
+            const post = JSON.parse(localStorage.getItem(key));
+            this.maxId = key + 1;
+            this.setState(({data}) => {
+                const newData = [...data, post];
+                return {
+                    data: newData
+                }
+            })
+        }
+    }
+
     onAdd = (postText) => {
 
         const newItem = {
@@ -29,6 +45,7 @@ class App extends React.Component {
                 data: newData
             }
         })
+        localStorage.setItem(newItem.id, JSON.stringify(newItem));
     }
 
     onDelete = id => {
@@ -40,15 +57,18 @@ class App extends React.Component {
 
             return {data: newData}
         })
+        localStorage.removeItem(id);
     }
 
     onLike = id => {
+        
         this.setState(({data}) => {
             
             const index = data.findIndex(item => item.id === id);
             const oldPost = data[index];
-            const newPost = {...oldPost, like: !oldPost.like}
+            const newPost = {...oldPost, like: !oldPost.like};
 
+            localStorage.setItem(newPost.id, JSON.stringify(newPost));
             const newData = [...data.slice(0, index), newPost, ...data.slice(index + 1)];
 
             return {data: newData}
