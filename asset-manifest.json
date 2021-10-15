@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Little-twitter-React/static/css/main.fcdf9ff3.chunk.css",
+    "main.js": "/Little-twitter-React/static/js/main.4b2717ce.chunk.js",
+    "main.js.map": "/Little-twitter-React/static/js/main.4b2717ce.chunk.js.map",
+    "runtime-main.js": "/Little-twitter-React/static/js/runtime-main.a017beb8.js",
+    "runtime-main.js.map": "/Little-twitter-React/static/js/runtime-main.a017beb8.js.map",
+    "static/js/2.e8a8a037.chunk.js": "/Little-twitter-React/static/js/2.e8a8a037.chunk.js",
+    "static/js/2.e8a8a037.chunk.js.map": "/Little-twitter-React/static/js/2.e8a8a037.chunk.js.map",
+    "index.html": "/Little-twitter-React/index.html",
+    "static/css/main.fcdf9ff3.chunk.css.map": "/Little-twitter-React/static/css/main.fcdf9ff3.chunk.css.map",
+    "static/js/2.e8a8a037.chunk.js.LICENSE.txt": "/Little-twitter-React/static/js/2.e8a8a037.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a017beb8.js",
+    "static/js/2.e8a8a037.chunk.js",
+    "static/css/main.fcdf9ff3.chunk.css",
+    "static/js/main.4b2717ce.chunk.js"
+  ]
+}
